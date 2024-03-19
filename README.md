@@ -1,1 +1,1 @@
-# angular-squad
+# Angular Squad
