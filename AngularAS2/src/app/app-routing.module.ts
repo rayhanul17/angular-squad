@@ -20,6 +20,10 @@ const routes: Routes = [
     loadChildren: () => import('./course-details/course-details.module').then( (m) => m.CourseDetailsModule) 
   },
   {
+    path:'users',
+    component:UsersComponent
+  },
+  {
     path:'**',
     component: PageNotFoundComponent
   }

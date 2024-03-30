@@ -10,6 +10,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { UsersComponent } from './users/users.component';
 import { CourseDetailsComponent } from './course-details/course-details.component';
 import { CourseDetailsModule } from './course-details/course-details.module';
+import { FirstCourseComponent } from './cards/first-course/first-course.component';
+import { SecondCourseComponent } from './cards/second-course/second-course.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { CourseDetailsModule } from './course-details/course-details.module';
     HomeComponent,
     PageNotFoundComponent,
     UsersComponent,
-    CourseDetailsComponent
+    CourseDetailsComponent,
+    FirstCourseComponent,
+    SecondCourseComponent
   ],
   imports: [
     BrowserModule,
