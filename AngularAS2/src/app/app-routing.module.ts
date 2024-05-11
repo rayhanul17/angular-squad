@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { UsersComponent } from './users/users.component';
 import { CourseDetailsComponent } from './course-details/course-details.component';
+import { StandaloneCardComponent } from './cards/standalone-card/standalone-card.component';
 
 const routes: Routes = [
   {
@@ -22,6 +23,10 @@ const routes: Routes = [
   {
     path:'users',
     component:UsersComponent
+  },
+  {
+    path:'standalone-card',
+    component:StandaloneCardComponent
   },
   {
     path:'**',
