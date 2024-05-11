@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { DrafComponentComponent } from './draf-component/draf-component.component';
 import { FormsModule } from '@angular/forms';
 import { DrafComponent2Component } from './draf-component2/draf-component2.component';
+import { PublicModule } from './public/public.module';
+import { UsersModule } from './users/users.module';
+import { CoursesModule } from './courses/courses.module';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { DrafComponent2Component } from './draf-component2/draf-component2.compo
   imports: [
     BrowserModule,
     AppRoutingModule,
-    DrafComponent2Component
+    DrafComponent2Component,
+    PublicModule,
+    UsersModule,
+    CoursesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
