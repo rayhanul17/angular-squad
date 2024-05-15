@@ -16,6 +16,11 @@ const routes: Routes = [
   {
     path: 'public', 
     loadChildren: () => import('./app/public/public.module').then(m => m.PublicModule) 
+  },
+  {
+    path:'home',
+    loadChildren: () => import('./app/courses/courses.module').then((m) => m.CoursesModule),
+  pathMatch: 'full'
   }
 ];
 
