@@ -8,7 +8,6 @@ import { FormsModule } from '@angular/forms';
 import { DrafComponent2Component } from './draf-component2/draf-component2.component';
 import { PublicModule } from './public/public.module';
 import { UsersModule } from './users/users.module';
-import { CoursesModule } from './courses/courses.module';
 import { CommonModule, NgClass } from '@angular/common';
 
 @NgModule({
@@ -21,8 +20,7 @@ import { CommonModule, NgClass } from '@angular/common';
     AppRoutingModule,
     DrafComponent2Component,
     PublicModule,
-    UsersModule,
-    CoursesModule
+    UsersModule
   ],
   providers: [],
   bootstrap: [AppComponent]

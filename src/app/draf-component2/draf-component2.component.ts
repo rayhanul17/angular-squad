@@ -12,6 +12,7 @@ import { CommonModule } from '@angular/common';
 })
 export class DrafComponent2Component {
   newDescription:string = 'Write Something';
+  btnText = 'Read More';
 
   Card: ICard ={
     title : "Card Title",
@@ -22,9 +23,11 @@ export class DrafComponent2Component {
   showHide(){
     if(this.Card.isDisplay == true){
       this.Card.isDisplay = false;
+      this.btnText = 'Read More';
     }
     else{
       this.Card.isDisplay = true;
+      this.btnText = 'Read Less';
     }
   }
 
